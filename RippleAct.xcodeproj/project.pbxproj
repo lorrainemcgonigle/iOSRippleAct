@@ -12,8 +12,6 @@
 		2E6F5F4721C1B63400ACA5FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6F5F4521C1B63400ACA5FC /* Main.storyboard */; };
 		2E6F5F4921C1B63500ACA5FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E6F5F4821C1B63500ACA5FC /* Assets.xcassets */; };
 		2E6F5F4C21C1B63500ACA5FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6F5F4A21C1B63500ACA5FC /* LaunchScreen.storyboard */; };
-		2E6F5F5721C1B63500ACA5FC /* RippleActTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6F5F5621C1B63500ACA5FC /* RippleActTests.swift */; };
-		2E6F5F6221C1B63600ACA5FC /* RippleActUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6F5F6121C1B63600ACA5FC /* RippleActUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +40,7 @@
 		2E6F5F4B21C1B63500ACA5FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E6F5F4D21C1B63500ACA5FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E6F5F5221C1B63500ACA5FC /* RippleActTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RippleActTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E6F5F5621C1B63500ACA5FC /* RippleActTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleActTests.swift; sourceTree = "<group>"; };
-		2E6F5F5821C1B63500ACA5FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E6F5F5D21C1B63600ACA5FC /* RippleActUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RippleActUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E6F5F6121C1B63600ACA5FC /* RippleActUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleActUITests.swift; sourceTree = "<group>"; };
-		2E6F5F6321C1B63600ACA5FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				2E6F5F4021C1B63400ACA5FC /* RippleAct */,
-				2E6F5F5521C1B63500ACA5FC /* RippleActTests */,
-				2E6F5F6021C1B63600ACA5FC /* RippleActUITests */,
 				2E6F5F3F21C1B63400ACA5FC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,24 +97,6 @@
 				2E6F5F4D21C1B63500ACA5FC /* Info.plist */,
 			);
 			path = RippleAct;
-			sourceTree = "<group>";
-		};
-		2E6F5F5521C1B63500ACA5FC /* RippleActTests */ = {
-			isa = PBXGroup;
-			children = (
-				2E6F5F5621C1B63500ACA5FC /* RippleActTests.swift */,
-				2E6F5F5821C1B63500ACA5FC /* Info.plist */,
-			);
-			path = RippleActTests;
-			sourceTree = "<group>";
-		};
-		2E6F5F6021C1B63600ACA5FC /* RippleActUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2E6F5F6121C1B63600ACA5FC /* RippleActUITests.swift */,
-				2E6F5F6321C1B63600ACA5FC /* Info.plist */,
-			);
-			path = RippleActUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +239,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E6F5F5721C1B63500ACA5FC /* RippleActTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E6F5F6221C1B63600ACA5FC /* RippleActUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
